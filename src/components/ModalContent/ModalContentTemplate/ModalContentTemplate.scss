@@ -1,0 +1,54 @@
+.remove_member_container {
+  background-color: #959595;
+  background-color: var(--color-saltpan);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  .remove_member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    // padding-top: 60px;
+    // height: 180px;
+    width: 100%;
+    position: relative;
+    .close_btn {
+      width: 16px;
+      height: 16px;
+      background-image: url("./../../image/icon_close");
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+    .img {
+      width: 100px;
+      height: 100px;
+      background-image: url("./../../image/icon_success_login.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 60px;
+    }
+    .title {
+      font-size: 20px;
+      font-family: "Noto Sans";
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .btn {
+      background-color: var(--color-light-green);
+      width: 100%;
+      height: 35px;
+      border-radius: 5px;
+      text-align: center;
+      line-height: 35px;
+      color: var(--color-white);
+      cursor: pointer;
+    }
+  }
+}

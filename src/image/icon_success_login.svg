@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <clipPath id="yigin5x25a">
+            <path fill="none" d="M0 0H100V100H0z" transform="translate(153 99)"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#yigin5x25a)" transform="translate(-153 -99)">
+        <path fill="#253251" d="M25 50a25 25 0 0 1-12.147-3.174L2.522 49.592a1.726 1.726 0 0 1-2.115-2.115l2.766-10.331A24.985 24.985 0 1 1 25 50zM13.565 16.666a1.066 1.066 0 0 0-1.065 1.065v13.835a1.066 1.066 0 0 0 1.065 1.065h17.028a1.066 1.066 0 0 0 1.065-1.065v-3.193L36.98 30.5V18.795l-5.322 2.128v-3.192a1.066 1.066 0 0 0-1.065-1.065z" transform="translate(178 124)"/>
+    </g>
+</svg>

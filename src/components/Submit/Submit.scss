@@ -1,0 +1,41 @@
+.submit_container {
+  width: 400px;
+  height: 640px;
+  background-color: var(--color-saltpan);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  .device_submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 120px;
+    // height: 180px;
+    .icon {
+      width: 50px;
+      height: 50px;
+      background-image: url("./../../image/icon_device_submit.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 30px;
+    }
+    .text {
+      font-size: 20px;
+      font-family: "Noto Sans";
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .btn {
+      background-color: var(--color-light-green);
+      width: 100px;
+      height: 35px;
+      border-radius: 5px;
+      text-align: center;
+      line-height: 35px;
+      color: var(--color-white);
+      cursor: pointer;
+    }
+  }
+}

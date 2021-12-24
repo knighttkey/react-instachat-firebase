@@ -1,0 +1,225 @@
+.setting_container {
+  width: 360px;
+  height: 360px;
+  // width: 810px;
+  // background-color: #959595;
+  // background-color: var(--color-saltpan);
+  // display: flex;
+  // justify-content: center;
+  // align-items: flex-start;
+
+  .setting {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    .close_btn {
+      width: 16px;
+      height: 16px;
+      background-image: url("./../../image/icon_close.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      cursor: pointer;
+    }
+    > svg {
+      filter: blur(1px);
+    }
+    .user_info {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      align-items: center;
+
+      .user_avatar {
+        max-height: 100px;
+        max-width: 100px;
+        position: relative;
+        .loading_circle {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          background-color: #dddbdd;
+          position: relative;
+          overflow: hidden;
+          filter: blur(1px);
+          &:after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            transform: translateX(-100%);
+            background-image: linear-gradient(
+              90deg,
+              rgba(#fff, 0) 0,
+              rgba(#fff, 0.2) 20%,
+              rgba(#fff, 0.5) 60%,
+              rgba(#fff, 0)
+            );
+            animation: loadingCircle 2s infinite;
+            content: "";
+          }
+        }
+        .avatar {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        .img {
+          width: 100px;
+          height: 100px;
+          background-image: url("./../../image/icon_success_login.svg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          // margin-top: 60px;
+        }
+        .avatar_default {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          background-image: url("./../../img/user.svg");
+          background-repeat: no-repeat;
+          background-size: 50%;
+          background-color: rgb(180, 187, 196);
+          background-position: center;
+        }
+        .tools_upload {
+          width: 20px;
+          // height: 40px;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          // margin: 0 10px 0 0;
+          // filter: invert(1);
+          background-image: url("./../../img/pen-square.svg");
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          transition: 0.4s;
+          &:hover {
+            filter: invert(0.3);
+          }
+          > input {
+            width: 100%;
+            height: 100%;
+            left: 0;
+            right: 0;
+            opacity: 0;
+            position: absolute;
+            cursor: pointer;
+            padding-left: 100%;
+          }
+        }
+      }
+      .user_id {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        margin: 10px 0 0 0;
+      }
+      .user_name_edit {
+        margin-top: 10px;
+        position: relative;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        .user_name_edit_input {
+          width: 200px;
+          height: 30px;
+          // margin: 12px 0 60px;
+          padding: 12px 10px;
+          border: solid 1px var(--color-black);
+          border-radius: 3px;
+          box-sizing: border-box;
+          // outline: none;
+          outline-color: var(--color-light-green);
+        }
+        .icon_check {
+          width: 20px;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          background-image: url("./../../img/check-square.svg");
+          position: absolute;
+          right: 3px;
+          top: 3px;
+          transition: 0.4s;
+          cursor: pointer;
+          &:hover {
+            filter: invert(0.3);
+          }
+        }
+      }
+      .user_name {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: 10px;
+        .icon_edit {
+          width: 20px;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          background-image: url("./../../img/pen-square.svg");
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          transition: 0.4s;
+          cursor: pointer;
+          &:hover {
+            filter: invert(0.3);
+          }
+        }
+      }
+    }
+
+    .messageBox {
+      width: 100%;
+      #avatarProgressBar {
+        display: none;
+        background-color: yellowgreen;
+        height: 20px;
+        transition: 0.3s;
+      }
+    }
+
+    .text {
+      font-size: 20px;
+      font-family: "Noto Sans";
+      text-align: center;
+      font-weight: 500;
+      // margin-bottom: 60px;
+    }
+    .btn {
+      background-color: var(--color-spanish-bistre);
+      width: 100px;
+      height: 35px;
+      border-radius: 5px;
+      text-align: center;
+      line-height: 35px;
+      color: var(--color-white);
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        background-color: var(--color-kombu-green);
+      }
+    }
+  }
+  @keyframes loadingCircle {
+    100% {
+      transform: translateX(100%);
+    }
+  }
+}

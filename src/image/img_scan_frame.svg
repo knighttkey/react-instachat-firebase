@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="qr_code_scanner_black_48dp" width="230" height="230" viewBox="0 0 230 230">
+    <defs>
+        <style>
+            .cls-2{fill:#766153}
+        </style>
+    </defs>
+    <path id="Rectangle_1558" fill="none" d="M0 0H230V230H0z"/>
+    <path id="Path_12760" d="M2 2v57.171l7.893-.005V9.886h49.278V2z" class="cls-2" transform="translate(-1.343 -1.343)"/>
+    <path id="Path_12761" d="M0 0v57.171l7.893-.005V7.886h49.278V0z" class="cls-2" transform="matrix(0 1 -1 0 230 .657)"/>
+    <path id="Path_12762" d="M0 0v57.171l7.893-.005V7.886h49.278V0z" class="cls-2" transform="rotate(180 115 115)"/>
+    <path id="Path_12763" d="M0 0v57.171l7.893-.005V7.886h49.278V0z" class="cls-2" transform="matrix(0 -1 1 0 .657 230)"/>
+</svg>

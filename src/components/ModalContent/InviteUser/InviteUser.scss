@@ -1,0 +1,94 @@
+.invite_user_container {
+  background-color: #959595;
+  background-color: var(--color-saltpan);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+
+  .invite_user {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    // padding-top: 60px;
+    // height: 180px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .invite_header {
+      width: 100%;
+      height: 100px;
+      position: absolute;
+      top: 0;
+      left: 5px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 14px;
+      .return_icon {
+        width: 16px;
+        height: 16px;
+        background-image: url("./../../../image/icon_return.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin: 0 5px 0 10px;
+        cursor: pointer;
+      }
+    }
+    .close_btn {
+      width: 16px;
+      height: 16px;
+      background-image: url("./../../../image/icon_close.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      cursor: pointer;
+    }
+
+    .title {
+      font-family: "Noto Sans";
+      text-align: center;
+      margin: 30px 0 20px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .text {
+        font-size: 28px;
+      }
+      .count {
+        font-size: 16px;
+        margin-left: 8px;
+      }
+    }
+    .btn {
+      font-family: "Noto Sans";
+      background-color: var(--color-light-green);
+      width: 100px;
+      height: 35px;
+      border-radius: 5px;
+      text-align: center;
+      line-height: 35px;
+      color: var(--color-white);
+      cursor: pointer;
+      &.disable {
+        background-color: var(--color-spanish-gray);
+        cursor: initial;
+      }
+    }
+    .user_list_container {
+      margin-top: 15px;
+      padding: 0 0 0 15px;
+      margin-bottom: 14px;
+    }
+    .user_list_container {
+      .user_list {
+        height: 400px;
+      }
+    }
+  }
+}

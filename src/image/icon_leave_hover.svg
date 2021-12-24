@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Meeting_Function_-_Close" width="60" height="60" viewBox="0 0 60 60">
+    <defs>
+        <style>
+            .cls-3{fill:none}.cls-4{fill:#fff}
+        </style>
+    </defs>
+    <path id="Path_12773" fill="#ac2020" d="M4 0h52a4 4 0 0 1 4 4v52a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z"/>
+    <rect id="Rectangle_1518" width="60" height="60" fill="rgba(0,0,0,0.1)" rx="4"/>
+    <g id="logout_black_24dp" transform="translate(12 12)">
+        <path id="Path_12649" d="M0 0h36v36H0z" class="cls-3"/>
+        <path id="Path_12650" d="M24.5 9l-2.115 2.115L26.255 15H11v3h15.255l-3.87 3.87L24.5 24l7.5-7.5zM5 6h12V3H5a3.009 3.009 0 0 0-3 3v21a3.009 3.009 0 0 0 3 3h12v-3H5z" class="cls-4" transform="translate(1 1.5)"/>
+    </g>
+    <g id="logout_black_24dp-2" transform="translate(12 12)">
+        <path id="Path_12649-2" d="M0 0h36v36H0z" class="cls-3"/>
+        <path id="Path_12650-2" d="M24.5 9l-2.115 2.115L26.255 15H11v3h15.255l-3.87 3.87L24.5 24l7.5-7.5zM5 6h12V3H5a3.009 3.009 0 0 0-3 3v21a3.009 3.009 0 0 0 3 3h12v-3H5z" class="cls-4" transform="translate(1 1.5)"/>
+    </g>
+</svg>
